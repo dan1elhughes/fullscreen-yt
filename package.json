@@ -1,0 +1,15 @@
+{
+  "name": "fullscreen-yt",
+  "version": "0.0.1",
+  "description": "Adds a button to YouTube videos to open it in embed mode",
+  "main": "script.js",
+  "scripts": {
+    "build": "bestzip build.zip icon16.png icon48.png icon128.png manifest.json script.js"
+  },
+  "keywords": [],
+  "author": "Dan Hughes",
+  "license": "ISC",
+  "devDependencies": {
+    "bestzip": "^1.1.3"
+  }
+}

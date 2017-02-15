@@ -1,0 +1,21 @@
+{
+   "name" : "Fullscreen YouTube",
+   "version" : "0.0.1",
+   "description" : "Adds a button to YouTube videos to open it in embed mode",
+   "manifest_version" : 2,
+   "icons" : {
+      "16" : "icon16.png",
+      "48" : "icon48.png",
+      "128" : "icon128.png"
+   },
+   "content_scripts" : [
+      {
+         "matches" : [
+            "https://www.youtube.com/*"
+         ],
+         "js" : [
+            "script.js"
+         ]
+      }
+   ]
+}
